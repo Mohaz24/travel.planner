@@ -1,0 +1,9 @@
+
+#submit{padding:3px 19px 5px 19px;font-family:"Dancing Script", cursive;background-color:#000;border-radius:5px;border-color:none;color:#fff;margin:10px}#submit:hover{background-color:blue}#reset{padding:3px 19px 5px 19px;font-family:"Dancing Script", cursive;background-color:red;border-radius:5px;border-color:none;color:#fff}#reset:hover{background-color:#000}
+
+#main-footer{padding:40px;background-color:#f0f8ff;text-align:center}
+
+h3{text-align:center;font-family:'Dancing Script', cursive}#main-footer{padding:40px;background-color:#f0f8ff;text-align:center}#submit{padding:3px 19px 5px 19px;font-family:"Dancing Script", cursive;background-color:#000;border-radius:5px;border-color:none;color:#fff;margin:10px}#submit:hover{background-color:blue}#reset{padding:3px 19px 5px 19px;font-family:"Dancing Script", cursive;background-color:red;border-radius:5px;border-color:none;color:#fff}#reset:hover{background-color:#000}body{font-family:"Dancing Script", cursive;background-color:#ffe6f2}.hero-main{display:flex;justify-content:center;align-items:center;gap:1rem;margin:100px}input{padding:4px 6px;font-family:"Dancing Script", cursive;border-radius:5px;border:#ffe6f2}input:focus-visible{background-color:#fff;color:#000}.details{font-size:20px;font-weight:none;font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif}h1{font-family:"Dancing Script", cursive;text-align:center}@media screen and (max-width: 1010px){.hero-main{display:flex;justify-content:center;align-items:center;gap:1rem;margin:100px;flex-wrap:wrap}}
+
+h3{text-align:center;font-family:'Dancing Script', cursive}
+

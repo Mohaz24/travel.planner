@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <!-- Html Language -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <title>Capstone</title>
+    <body>
+        <!-- Header -->
+        <header id="main-header-title">
+            <div class="title">
+                <h1>Travel with us</h1>
+            </div>
+            <div class="sub-title">
+                <h3>You're journey <br> begins here! </h3>
+            </div>
+        </header>
+        <!-- Main  -->
+        <main id="main-content">
+            <section>
+                <form class="hero-main">
+                    <div class="city">
+                        <label for="city">Destination</label>
+                        <input type="city" name="city" id="destination" placeholder="Where to (eg. Sydney)" required>
+                    </div>
+                    <div class="start">
+                        <label for="start">Start</label>
+                        <input type="date" name="date" id="Start-date">
+                    </div>
+                    <div class="end">
+                        <label for="start">End</label>
+                        <input type="date" name="date" id="end-date">
+                    </div>
+                    <button id="submit">Add trip</button>
+                    <button id="reset">Reset</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <section class="final-result">
+            <div id="result"></div>
+        </section>
+        <!-- Javascript -->
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
+        <!-- Foooter -->
+        <footer id="main-footer">
+            <p>@copy Mohammed 2022</p>
+        </footer>
+    </body>
+</html>

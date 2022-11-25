@@ -1,0 +1,31 @@
+/* Submit button */
+#submit {
+   padding: 3px 19px 5px 19px;
+   font-family: "Dancing Script", cursive;
+   background-color: #000;
+   border-radius: 5px;
+   border-color: none;
+   color: #fff;
+   margin: 10px;
+ }
+ 
+ /* Hovering  of reset color */
+ #submit:hover {
+   background-color: hsl(240, 100%, 50%);
+ }
+ 
+ /* Reset button */
+ #reset {
+   padding: 3px 19px 5px 19px;
+   font-family: "Dancing Script", cursive;
+   background-color: rgb(255, 0, 0);
+   border-radius: 5px;
+   border-color: none;
+   color: #fff;
+ }
+ 
+ /* Hovering  of reset color */
+ #reset:hover {
+   background-color: #000;
+ }
+ 

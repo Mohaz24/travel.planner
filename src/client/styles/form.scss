@@ -1,0 +1,57 @@
+@import "header.scss";
+@import "footer.scss";
+@import "buttons.scss";
+body {
+    font-family: "Dancing Script", cursive;
+    background-color: rgb(255, 230, 242);
+  }
+  
+  /* content */
+  .hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 100px;
+  }
+  
+  /* Entry */
+  input {
+    padding: 4px 6px;
+    font-family: "Dancing Script", cursive;
+    border-radius: 5px;
+    border: #ffe6f2;
+  }
+  
+  input:focus-visible {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Results */
+  .details {
+    font-size: 20px;
+    font-weight: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  /* Importing header.scss */
+  h1 {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+  }
+  
+  /* Media querey */
+  @media screen and (max-width: 1000px) {
+    .hero-main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin: 100px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  
